@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: 4b0437ae97bbb604983d80c2b83d1078
+  - enabled: 1
+    path: Assets/Scenes/1.unity
+    guid: 08fb0f314ecfa9144b87ca92d0d02d2f
+  - enabled: 1
+    path: Assets/Scenes/2.unity
+    guid: 0b67794ce115b4341a776df8a527ab43
+  - enabled: 1
+    path: Assets/Scenes/3.unity
+    guid: 95d155cb02da2f740b8af3ea6140ee95
+  - enabled: 1
+    path: Assets/Scenes/4.unity
+    guid: a50c26606de9dcd43a594dde938de90e
+  - enabled: 1
+    path: Assets/Scenes/5.unity
+    guid: c47e5d06f38ae204f8b0c2a5588a5db4
+  - enabled: 1
+    path: Assets/Scenes/6.unity
+    guid: c03f4f739a688b2428ba896083168ac9
+  - enabled: 1
+    path: Assets/Scenes/7.unity
+    guid: d0db9ed4f302a074d9620a6a2844346e
+  - enabled: 1
+    path: Assets/Scenes/8.unity
+    guid: 68a0226616b618c498f725ae1847b149
+  - enabled: 1
+    path: Assets/Scenes/9.unity
+    guid: c0c8d344064d9b449942f057ff5d168c
+  - enabled: 1
+    path: Assets/Scenes/10.unity
+    guid: 221039c44b07f404a9ea60122e3e3584
+  - enabled: 1
+    path: Assets/Scenes/11.unity
+    guid: fbeecdc30124e02438d8fa4b79e19e11
+  - enabled: 1
+    path: Assets/Scenes/12.unity
+    guid: 0ab966eaeb8aa9b439fc06ad6c528be9
+  - enabled: 1
+    path: Assets/Scenes/ExplanationScene.unity
+    guid: 94434cdbd00a10841a973b55e4e0d01d
+  - enabled: 1
+    path: Assets/Scenes/LettersMenu.unity
+    guid: 15fbfb112ca5912408d1f8fc34b44c8a
+  - enabled: 1
+    path: Assets/Scenes/BadFeelingsGame.unity
+    guid: 72a601619848e1146ab76f7ce0b39025
+  - enabled: 1
+    path: Assets/Scenes/TheKnowGame.unity
+    guid: 2ba824629469ab64e8a87bd34a3abffd
