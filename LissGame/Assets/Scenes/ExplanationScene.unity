@@ -130,7 +130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &273623998
 Animator:
   serializedVersion: 3
@@ -217,7 +217,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - emotion: Shame
+      time: 0.1
+      soundEmotion: {fileID: 8300000, guid: 41814e637c03f8f41bc708f2bf9e7835, type: 3}
+      message: Hola guapa!
+    - emotion: Surprise
+      time: 0.1
+      soundEmotion: {fileID: 8300000, guid: ce2c5fd061f39f64a9e9dee59c2f99da, type: 3}
+      message: Me  encantas!
   startButton: {fileID: 1753597721}
   dialogUI: {fileID: 820679597}
 --- !u!82 &273624002
@@ -544,8 +552,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 818131702}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 360, y: 640, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 174.5, y: 279.5, z: 0}
+  m_LocalScale: {x: 0.46009484, y: 0.46009484, z: 0.46009484}
   m_Children:
   - {fileID: 820679598}
   - {fileID: 1753597720}
@@ -669,7 +677,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1027555747}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 335.9693, y: 113.32721, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -692,6 +700,7 @@ MonoBehaviour:
   source: {fileID: 0}
   nextDialogButton: {fileID: 1597967777}
   DialogBoxAnimator: {fileID: 820679601}
+  buttonText: {fileID: 373343991}
 --- !u!82 &1027555750
 AudioSource:
   m_ObjectHideFlags: 0
@@ -846,7 +855,7 @@ GameObject:
   - component: {fileID: 1456826259}
   - component: {fileID: 1456826261}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1008,6 +1017,17 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour {
 
@@ -14,6 +15,7 @@ public class DialogueManager : MonoBehaviour {
     private string actualEmotion;
     public Button nextDialogButton;
     public Animator DialogBoxAnimator;
+    public Text buttonText;
 
 	// Use this for initialization
 	void Start () {
@@ -37,7 +39,8 @@ public class DialogueManager : MonoBehaviour {
 
     public void DisplayNextSentence()
     {
-        if(sentencesInQ.Count == 0)
+        if (sentencesInQ.Count == 1) buttonText.text = "Fin!";
+        if (sentencesInQ.Count == 0)
         {
             EndDialogue();
             return;
@@ -78,6 +81,6 @@ public class DialogueManager : MonoBehaviour {
 
     void EndDialogue()
     {
-        Debug.Log("No hay mas dialogos");
+        SceneManager.LoadScene(14);
     }
 }

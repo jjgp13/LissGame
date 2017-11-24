@@ -5,9 +5,10 @@ using UnityEngine.UI;
 
 public class DialogueTrigger : MonoBehaviour {
 
-	public Dialogue dialogue;
+
     public Button startButton;
     public GameObject dialogUI;
+    public Dialogue dialogue;
 
     public void TriggerDialogue(){
         gameObject.SetActive(true);
