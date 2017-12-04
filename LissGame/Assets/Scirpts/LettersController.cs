@@ -11,6 +11,11 @@ public class LettersController : MonoBehaviour {
 
     public void openScene(int indexScene)
     {
+        if(indexScene == 0)
+        {
+            SceneManager.LoadScene(indexScene);
+            return;
+        }
         if(lettersAvailable[indexScene-1] == true)
             SceneManager.LoadScene(indexScene);
         else
