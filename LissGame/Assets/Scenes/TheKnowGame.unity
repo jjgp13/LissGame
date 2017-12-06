@@ -348,7 +348,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &151653061
 RectTransform:
   m_ObjectHideFlags: 0
@@ -636,7 +636,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 230082152}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 257345846}
+        m_MethodName: AskPanelBehavior
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 230082151}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &230082152
@@ -718,14 +729,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3911568df5603a54991035e7b73feb87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionPrefab: {fileID: 1830602228229256, guid: 1877d35a7a3b0744c991d977dcb331d9,
+  questionPrefab: {fileID: 114431551565703934, guid: 1877d35a7a3b0744c991d977dcb331d9,
     type: 2}
   contentPanel: {fileID: 257345845}
   countAnserws: {fileID: 55118508}
+  askPanel: {fileID: 151653060}
   ans0: {fileID: 928171172}
   ans1: {fileID: 1871854354}
   ans2: {fileID: 2122751138}
   ans3: {fileID: 573080291}
+  questionText: {fileID: 2045812149}
+  textAnswerButtons:
+  - {fileID: 456447895}
+  - {fileID: 164335428}
+  - {fileID: 1998224125}
+  - {fileID: 51287686}
+  cAnsSprite: {fileID: 21300000, guid: 81b8353fc9dfa1d4b8685f706d96889e, type: 3}
+  iAnsSprite: {fileID: 21300000, guid: b24a69503e7840549b96e984ecd4e6f9, type: 3}
+  colorButtonSprites:
+  - {fileID: 21300000, guid: 33181b815dd421c4582ae65b822e397d, type: 3}
+  - {fileID: 21300000, guid: d93f700bbfa17c440b3a8055dbc47d2f, type: 3}
+  - {fileID: 21300000, guid: a80299149dcfadc4288a5c0da48418d5, type: 3}
+  - {fileID: 21300000, guid: 7b06d27274017ce49b929eb85ad5940e, type: 3}
+  - {fileID: 21300000, guid: 5d1ed975a5a713c45b9507ed8cedfeaf, type: 3}
+  - {fileID: 21300000, guid: 43bd177b955d1e04a98ce17eb58126d7, type: 3}
+  - {fileID: 21300000, guid: 34fdd8121fc33f146962a2309b1a9c90, type: 3}
+  - {fileID: 21300000, guid: 698b1f629c5022946b71704e1de72e8f, type: 3}
+  - {fileID: 21300000, guid: aaea878b59c69154790c90292669fa02, type: 3}
+  - {fileID: 21300000, guid: 1dd11427f88b7634e9c1951e32997f85, type: 3}
+  activeQuestionNumber: 0
+  questionsInfo:
+  - question: Fecha de nacimiento
+    answers:
+    - 12
+    - 4
+    - 3
+    - 5
+    correctAnswer: 0
+  - question: Fecha de algo importante
+    answers:
+    - asdasd
+    - sd
+    - asdasdf
+    - ewrew
+    correctAnswer: 3
 --- !u!114 &257345847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1018,7 +1065,7 @@ GameObject:
   - component: {fileID: 573080292}
   - component: {fileID: 573080291}
   m_Layer: 5
-  m_Name: Ans4
+  m_Name: Ans3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1081,7 +1128,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 573080292}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 257345846}
+        m_MethodName: CheckAnswer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &573080292
@@ -1381,7 +1439,7 @@ GameObject:
   - component: {fileID: 928171173}
   - component: {fileID: 928171172}
   m_Layer: 5
-  m_Name: Ans1
+  m_Name: Ans0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1444,7 +1502,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 928171173}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 257345846}
+        m_MethodName: CheckAnswer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &928171173
@@ -1683,7 +1752,7 @@ GameObject:
   - component: {fileID: 1871854355}
   - component: {fileID: 1871854354}
   m_Layer: 5
-  m_Name: Ans2
+  m_Name: Ans1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1746,7 +1815,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1871854355}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 257345846}
+        m_MethodName: CheckAnswer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1871854355
@@ -2058,7 +2138,7 @@ GameObject:
   - component: {fileID: 2122751139}
   - component: {fileID: 2122751138}
   m_Layer: 5
-  m_Name: Ans3
+  m_Name: Ans2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2121,7 +2201,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2122751139}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 257345846}
+        m_MethodName: CheckAnswer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2122751139
