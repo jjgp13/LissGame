@@ -216,18 +216,154 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26d79a0b247f310429f36ba72e0759fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    sentences:
-    - emotion: Shame
-      time: 0.1
-      soundEmotion: {fileID: 8300000, guid: 41814e637c03f8f41bc708f2bf9e7835, type: 3}
-      message: Hola guapa!
-    - emotion: Surprise
-      time: 0.1
-      soundEmotion: {fileID: 8300000, guid: ce2c5fd061f39f64a9e9dee59c2f99da, type: 3}
-      message: Me  encantas!
   startButton: {fileID: 1753597721}
   dialogUI: {fileID: 820679597}
+  dialogue:
+    sentences:
+    - emotion: Love
+      time: 0.5
+      soundEmotion: {fileID: 0}
+      message: Hola guapa!
+    - emotion: Smilling
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: He  aqui  la  sorpresa  que  tanto  esperabas.
+    - emotion: Love
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: En  realidad  esta  idea  surgio  justo  de  la inspiracion  que  tu  me  diste.
+    - emotion: Naughty
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: Eres  justo  la  fuente  de  motivacion  que  utilice  para  crear  este  detalle.
+    - emotion: Love
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: Despues  de  lo  increible  que  fue  el  ultimo  dia que  pasamos  juntos  en  chicago.
+    - emotion: Love
+      time: 0.2
+      soundEmotion: {fileID: 0}
+      message: 'Y  el  lindo  detalle  que  me  diste. '
+    - emotion: Thinking
+      time: 0.25
+      soundEmotion: {fileID: 0}
+      message: "Quiza  no  sea  mucho,  pero  es  con  todo  el  amor  que  tengo
+        \ por  ti.\t"
+    - emotion: Laugh
+      time: 0.3
+      soundEmotion: {fileID: 0}
+      message: Bueno, al punto.
+    - emotion: Love
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: Esta  aplicacion  trata  de  emular  justo  el detalle  que  tu  me  diste  en  chicago.
+    - emotion: Surprise
+      time: 0.2
+      soundEmotion: {fileID: 0}
+      message: Pero  de  una  manera  mas  tecnologica.
+    - emotion: Pity
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: Lo  que  busco  es  expresar  mis  sentimientos  de  igual  manera  que  tu.
+    - emotion: Ok
+      time: 0.3
+      soundEmotion: {fileID: 0}
+      message: Escribiendo.
+    - emotion: Love
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: El  dia  28  de  cada  mes  tendras  una  carta  escrita  por  mi.
+    - emotion: Thinking
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: "El  objetivo  de  estas  cartas  ser\xE1  transmitir  todas  mis  emociones
+        \ durante  el  mes  que  paso."
+    - emotion: Sad
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: Mis  emociones,  como  me  siento,  todo  lo  que  pienso,  etc.
+    - emotion: Love
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: "Asi  como  cuando  tu  escribes  en  tu  libreta.\uF04A"
+    - emotion: Thinking
+      time: 0.2
+      soundEmotion: {fileID: 0}
+      message: "Cuando abras el buzon de cartas\u2026"
+    - emotion: Surprise
+      time: 0.15
+      soundEmotion: {fileID: 0}
+      message: Te  daras  cuenta  que  solo  hay  12.
+    - emotion: Thinking
+      time: 0.2
+      soundEmotion: {fileID: 0}
+      message: "Es decir,  solo  para  un  a\xF1o."
+    - emotion: Fear
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: "Esto  con  la  promesa  y  la  ilusion de  que  pasando  esos  12
+        \ meses\u2026"
+    - emotion: Love
+      time: 0.3
+      soundEmotion: {fileID: 0}
+      message: Ya  estaremos  juntos.
+    - emotion: Ok
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: Y  que  estas  cartas  se  queden  como  un  lindo  recuerdo  de  nuestros  meses  separados.
+    - emotion: Naughty
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: Ademas  de  eso,  esta  app  viene  un  extra  mio.
+    - emotion: Surprise
+      time: 0.2
+      soundEmotion: {fileID: 0}
+      message: Cree  dos  juegos  exclusivamente  para  ti.
+    - emotion: Crying
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: Esto  con  la  idea  de  que  te  diviertas  y  entretengas  cuando  yo  no  pueda  estar  contigo.
+    - emotion: Naughty
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: La  idea  de  ambos  juegos  es  que  consigas  un  cierto  puntaje.
+    - emotion: Thinking
+      time: 0.15
+      soundEmotion: {fileID: 0}
+      message: Para  mas  informacion,  accede  a  ellos.
+    - emotion: Surprise
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: "Pero  el  punto  es  que  si  logras  el  objetivo  en  cada  uno
+        \ de  ellos\u2026"
+    - emotion: Naughty
+      time: 0.2
+      soundEmotion: {fileID: 0}
+      message: Tendras  una  sorpresa  mia.
+    - emotion: Surprise
+      time: 0.2
+      soundEmotion: {fileID: 0}
+      message: Una  por  cada  juego!
+    - emotion: Ok
+      time: 0.2
+      soundEmotion: {fileID: 0}
+      message: Premiando  asi  tu  esfuerzo.
+    - emotion: Laugh
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: Sin  mas  por  el  momento  me  despido  corazon.
+    - emotion: Smilling
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: Esperando  que  tengas  una  linda  experiencia  con  tu  detalle,  te  guste  y  la  disfrutes.
+    - emotion: Shame
+      time: 0.1
+      soundEmotion: {fileID: 0}
+      message: PD.  La  fuente  no  tenia  acentos  jeje.  Espero  que  lo  que  escriba  no  se  mal  interprete  por  eso.
+    - emotion: Love
+      time: 0.5
+      soundEmotion: {fileID: 0}
+      message: TE  AMO.
 --- !u!82 &273624002
 AudioSource:
   m_ObjectHideFlags: 0
@@ -552,8 +688,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 818131702}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 174.5, y: 279.5, z: 0}
-  m_LocalScale: {x: 0.46009484, y: 0.46009484, z: 0.46009484}
+  m_LocalPosition: {x: 360, y: 640, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 820679598}
   - {fileID: 1753597720}
@@ -701,6 +837,7 @@ MonoBehaviour:
   nextDialogButton: {fileID: 1597967777}
   DialogBoxAnimator: {fileID: 820679601}
   buttonText: {fileID: 373343991}
+  trimText: 1
 --- !u!82 &1027555750
 AudioSource:
   m_ObjectHideFlags: 0

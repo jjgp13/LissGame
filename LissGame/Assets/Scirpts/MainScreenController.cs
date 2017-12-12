@@ -2,10 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainScreenController : MonoBehaviour {
 
     public Animator feelingsUI, asksUI;
+    public Text feelingsScore, askingScore;
+
+    private void Start()
+    {
+        ShowHighScore("feelingsScoreKey", feelingsScore);
+        ShowHighScore("cAns", askingScore);
+    }
+
+    public void ShowHighScore(string scoreType, Text scoreText)
+    {
+        if (PlayerPrefs.HasKey(scoreType)) scoreText.text = PlayerPrefs.GetInt(scoreType).ToString();
+        else scoreText.text = "0";
+    }
 
     public void openScene(int indexScene)
     {

@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class QuestionsScrollList : MonoBehaviour {
 
     public Button questionPrefab;
+    public Button returnMainMenuButton;
     public Transform contentPanel;
     public Text countAnserws;
 
@@ -16,16 +18,24 @@ public class QuestionsScrollList : MonoBehaviour {
     public Sprite cAnsSprite, iAnsSprite;
     public Sprite[] colorButtonSprites;
     private int activeQuestionNumber;
+    private int activeCorrectAnswer;
+    private int cAns, iAns;
 
     public Question[] questionsInfo;
-
-    
-
 
     // Use this for initialization
     void Start () {
         addQuestions();
-	}
+        GetSavedAnserws();
+        //PlayerPrefs.DeleteAll();
+        //Get total answers
+        if (!PlayerPrefs.HasKey("cAns")) PlayerPrefs.SetInt("cAns", 0);
+        if (!PlayerPrefs.HasKey("iAns")) PlayerPrefs.SetInt("iAns", 0);
+        cAns = PlayerPrefs.GetInt("cAns");
+        iAns = PlayerPrefs.GetInt("iAns");
+
+        ShowAnsCount();
+    }
 	
 	
     private void addQuestions()
@@ -59,24 +69,40 @@ public class QuestionsScrollList : MonoBehaviour {
         }
     }
 
+    //Execute when a answer button is pressed.
     public void CheckAnswer(int answerNumber)
     {
-        if(answerNumber == activeQuestionNumber)
+        Image ansStateImage = GameObject.Find(activeQuestionNumber.ToString()).transform.GetChild(1).GetComponent<Image>();
+        ansStateImage.enabled = true;
+        DisEnableAnswerButtons(false);
+        if (answerNumber == activeCorrectAnswer)
         {
-            Debug.Log("Correcto");
-
+            ansStateImage.sprite = cAnsSprite;
+            PlayerPrefs.SetString(activeQuestionNumber.ToString(), "Correct");
+            cAns++;
+            PlayerPrefs.SetInt("cAns", cAns);
+            ShowAnsCount();
         }
         else
         {
-            Debug.Log("Incorrecto");
+            ansStateImage.sprite = iAnsSprite;
+            PlayerPrefs.SetString(activeQuestionNumber.ToString(), "Incorrect");
+            iAns++;
+            PlayerPrefs.SetInt("iAns", iAns);
+            ShowAnsCount();
         }
     }
 
-    //Function to execute when the button is pressed.
+    //Function to execute when the question button is pressed.
     public void SetPanelQuestionInfo(Button questionButton)
     {
         questionText.text = questionButton.GetComponent<SampleQuestion>().questionStruct.question;
-        activeQuestionNumber = questionButton.GetComponent<SampleQuestion>().questionStruct.correctAnswer;
+        activeQuestionNumber = int.Parse(questionButton.name);
+        activeCorrectAnswer = questionButton.GetComponent<SampleQuestion>().questionStruct.correctAnswer;
+
+        if (PlayerPrefs.GetString(activeQuestionNumber.ToString()) == "NoAns") DisEnableAnswerButtons(true);
+        else DisEnableAnswerButtons(false);
+
         for (int i = 0; i < textAnswerButtons.Length; i++)
             textAnswerButtons[i].text = questionButton.GetComponent<SampleQuestion>().questionStruct.answers[i];
     }
@@ -94,19 +120,31 @@ public class QuestionsScrollList : MonoBehaviour {
     {
         for (int i = 0; i < questionsInfo.Length; i++)
         {
-            if (!PlayerPrefs.HasKey(i.ToString())) PlayerPrefs.SetString(i.ToString(), "No");
+            if (!PlayerPrefs.HasKey(i.ToString())) PlayerPrefs.SetString(i.ToString(), "NoAns");
             else
             {
-                if (PlayerPrefs.GetString(i.ToString()) == "Correct")
-                    GameObject.Find(i.ToString()).transform.GetChild(1).GetComponent<Image>().sprite = cAnsSprite;
-                else
-                    GameObject.Find(i.ToString()).transform.GetChild(1).GetComponent<Image>().sprite = iAnsSprite;
+                Image ansStatus = GameObject.Find(i.ToString()).transform.GetChild(1).GetComponent<Image>();
+                ansStatus.enabled = true;
+
+                if (PlayerPrefs.GetString(i.ToString()) == "NoAns") ansStatus.enabled = false;
+                else if (PlayerPrefs.GetString(i.ToString()) == "Correct") ansStatus.sprite = cAnsSprite;
+                else ansStatus.sprite = iAnsSprite;
             }
         }
     }
 
-    public void DisEnableAnswerButtons()
+    public void DisEnableAnswerButtons(bool enabled)
     {
-        for (int i = 0; i < answerButtons.Length; i++) answerButtons[i].enabled = false;
+        for (int i = 0; i < answerButtons.Length; i++) answerButtons[i].interactable = enabled;
+    }
+
+    public void ShowAnsCount()
+    {
+        countAnserws.text = "Correctas : " + PlayerPrefs.GetInt("cAns") + "\nIncorrectas : " + PlayerPrefs.GetInt("iAns");
+    }
+
+    public void returnMainMenu()
+    {
+        SceneManager.LoadScene("MainMenuScene");
     }
 }

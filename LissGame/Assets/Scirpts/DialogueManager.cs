@@ -16,6 +16,7 @@ public class DialogueManager : MonoBehaviour {
     public Button nextDialogButton;
     public Animator DialogBoxAnimator;
     public Text buttonText;
+    public bool trimText;
 
 	// Use this for initialization
 	void Start () {
@@ -52,10 +53,10 @@ public class DialogueManager : MonoBehaviour {
         float sentenceSpeed = sentenceObj.time;
         AudioClip sound = sentenceObj.soundEmotion;
         StopAllCoroutines();
-        StartCoroutine(TypeSentence(sentence, feeling, sentenceSpeed, sound));
+        StartCoroutine(TypeSentence(sentence, feeling, sentenceSpeed, sound, trimText));
     }
 
-    IEnumerator TypeSentence(string sentence, string feeling, float time, AudioClip sound)
+    IEnumerator TypeSentence(string sentence, string feeling, float time, AudioClip sound, bool trim)
     {
         anim.SetBool("Talking", true);
         if (actualEmotion == "") actualEmotion = feeling;
@@ -65,7 +66,8 @@ public class DialogueManager : MonoBehaviour {
             actualEmotion = feeling;
         }
         nextDialogButton.gameObject.SetActive(false);
-        dialogText.text = "";
+        if (trim) dialogText.text = "";
+        else dialogText.text += "\n";
         source.Play();
         foreach (char letter in sentence.ToCharArray())
         {
