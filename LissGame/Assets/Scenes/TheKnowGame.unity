@@ -760,706 +760,715 @@ MonoBehaviour:
   - {fileID: 21300000, guid: aaea878b59c69154790c90292669fa02, type: 3}
   - {fileID: 21300000, guid: 1dd11427f88b7634e9c1951e32997f85, type: 3}
   questionsInfo:
-  - question: Fecha de nacimiento
+  - question: 1. Cual es mi nombre completo?
     answers:
-    - 12
-    - 4
-    - 3
-    - 5
-    correctAnswer: 0
-  - question: Fecha de algo importante
+    - Juan Jose Galvez Percastegui
+    - Jose Juan Galvez Percastegui
+    - Juan Jose Galvan Perez
+    - Jose Juan Galvez Gonzalez
+    correctAnswer: 1
+  - question: 2. Cual es mi pais de origen?
     answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 3
-  - question: 3
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
+    - Ecuador
+    - Estados Unidos
+    - Mexico
+    - Canada
     correctAnswer: 2
-  - question: 4
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
-  - question: 5
-    answers:
-    - asdasd
-    - sd
-    - asdasdf
-    - ewrew
-    correctAnswer: 1
+  - question: 3. Como se llama la empresa en donde trabajo?
+    answers:
+    - Harman
+    - Oracle
+    - Nintendo
+    - Google
+    correctAnswer: 0
+  - question: 4. Cual es el nombre de mi perro?
+    answers:
+    - Bembo
+    - MIchi
+    - Manchas
+    - Rex
+    correctAnswer: 2
+  - question: 5. Cual es mi fecha de nacimiento?
+    answers:
+    - 14/021994
+    - 12/02/1995
+    - 11/02/1993
+    - 12/02/1994
+    correctAnswer: 3
+  - question: 6. En que mes es mi cumpleanos?
+    answers:
+    - Abril
+    - Enero
+    - Febrero
+    - Junio
+    correctAnswer: 2
+  - question: 7. Que dia de la semana naci?
+    answers:
+    - Lunes
+    - Sabado
+    - Domingo
+    - Miercoles
+    correctAnswer: 1
+  - question: 8. En que lugar vivo actualmente?
+    answers:
+    - Queretaro
+    - Tepa
+    - Cuidad de Mexico
+    - Pachuca
+    correctAnswer: 0
+  - question: 9. Como se llama el lugar donde creci?
+    answers:
+    - Mixquihuala
+    - Pachuca
+    - Queretaro
+    - Tepa
+    correctAnswer: 3
+  - question: 10. En que lugar naci?
+    answers:
+    - Pachuca
+    - Mixquihuala
+    - Progreso
+    - Actopan
+    correctAnswer: 1
+  - question: 11. Cual es mi equipo de futbol favorito?
+    answers:
+    - Cruz Azul
+    - Barcelona
+    - Real Madrid
+    - 'Milan '
+    correctAnswer: 0
+  - question: 12. Quien es o era mi jugador favorita de futbol?
+    answers:
+    - Messi
+    - Cristiano Ronaldo
+    - Isco
+    - Kaka
+    correctAnswer: 3
+  - question: 13. Cual es mi color favorito?
+    answers:
+    - Rojo
+    - verde
+    - Azul
+    - Morado
+    correctAnswer: 2
+  - question: 14. Cual es mi postre favorito?
+    answers:
+    - Flan Napolitano
+    - Fresas con Crema
+    - Chocolate
+    - Arroz con leche
+    correctAnswer: 0
+  - question: 15. Cual es mi comida favorita?
+    answers:
+    - Tacos
+    - Tortas
+    - Chilaquiles
+    - Hamburguesas
+    correctAnswer: 2
+  - question: 16. En qu escuela estudie mi carrera profesional?
+    answers:
+    - Universidad de la americas
+    - Tec de Monterrey
+    - Tec de Queretaro
+    - Unam
+    correctAnswer: 1
+  - question: '17. Que edad tengo? '
+    answers:
+    - 22
+    - 24
+    - 23
+    - 21
+    correctAnswer: 2
+  - question: 18. Que dia nos conocimos?
+    answers:
+    - 18 de agosto
+    - 19 de agosto
+    - 28 de octubre
+    - 26 de octubre
+    correctAnswer: 0
+  - question: 19. Que fue lo primero que te dije?
+    answers:
+    - Estas muy guapa
+    - I love you
+    - Would you like to dance?
+    - Hi!
+    correctAnswer: 2
+  - question: 20. Con cuantos amigos iba la noche en que te conoci? Ve la foto
+    answers:
+    - 2
+    - 5
+    - 3
+    - 4
+    correctAnswer: 3
+  - question: 21. Que color era la playera que tenia puesta la noche en que te conoci?
+    answers:
+    - azul
+    - Roja
+    - Verde
+    - Amarilla
+    correctAnswer: 0
+  - question: 22. Que ritmo bailamos la primera vez que bailamos?
+    answers:
+    - Salsa
+    - Cumbia
+    - Bachata
+    - Merengue
+    correctAnswer: 0
+  - question: 23. Cual fue la primera pelicula que vimos juntos?
+    answers:
+    - Thor
+    - It
+    - Blue Valentine
+    - Titanic
+    correctAnswer: 1
+  - question: 24. Que dia de la semana vimos nuestra primera pelicula juntos?
+    answers:
+    - Martes
+    - Lunes
+    - Domingo
+    - Sabado
+    correctAnswer: 0
+  - question: 25. Cual fue el pretexto que use para hablarte por primera vez por telefono?
+    answers:
+    - Para invitarte a salir
+    - Para llevarte a cenar
+    - Para preguntarte por NY
+    - Te mande un emoji
+    correctAnswer: 2
+  - question: 26. El fin de semana que yo fui a NY, en donde estabas tu?
+    answers:
+    - Novi
+    - Detroit
+    - Chicago
+    - Canada
+    correctAnswer: 3
+  - question: 27. De donde fue el primer video que te mande por WA?
+    answers:
+    - Wall street
+    - Central Park
+    - Broadway
+    - Empire State
+    correctAnswer: 3
+  - question: 28. Como se llama el lugar a donde fuimos a comer al lago?
+    answers:
+    - Carinos
+    - Sushi house
+    - The cheescake factory
+    - Bayside Sports Grille
+    correctAnswer: 3
+  - question: 29. Que dia me mandaste mensaje por el terremoto en Mexico?
+    answers:
+    - 15 de septiembre
+    - 17 de septiembre
+    - 20 de septiembre
+    - 23 de septiembre
+    correctAnswer: 2
+  - question: 30. Que fue lo que me propusiste hacer cuando regresaras de ecuador?
+    answers:
+    - Ir al cine
+    - Ir al choclo embrujado
+    - Ir a cenar
+    - Salir a bailar
+    correctAnswer: 1
+  - question: 31. Cual fue la primera palabra ecuatoriana que te pregunte sobre su
+      significado?
+    answers:
+    - Bacan
+    - Choclo
+    - Chuta
+    - Cola
+    correctAnswer: 0
+  - question: 32. Que fue lo que te pedi cuando regresaras de ecuador?
+    answers:
+    - Dulces
+    - Chocolates
+    - Alcohol
+    - Comida tipica
+    correctAnswer: 1
+  - question: 33. Que te lleve cuando regrese de Mexico?
+    answers:
+    - Chocolates
+    - Comida
+    - Alcohol
+    - Dulces
+    correctAnswer: 3
+  - question: 34. Confundi a Mafer con tu?
+    answers:
+    - Hermana
+    - Amiga
+    - Mama
+    - Tia
+    correctAnswer: 0
+  - question: 35. Cuando fue la primera vez que te hice un piropo? (Estabas en ecuador)
+    answers:
+    - 15 de septiembre
+    - 20 de septiembre
+    - 19 de septiembre
+    - 23 de septiembre
+    correctAnswer: 3
+  - question: 36. Cual fue el primer platillo tipico de Ecuador por el cual te pregunte?
+    answers:
+    - Fritada
+    - Bolon de verde
+    - Colada Morada
+    - Guaguas
+    correctAnswer: 1
+  - question: 37. Que fue lo primero que no me dijiste que te gustaba? Comida.
+    answers:
+    - Aguacate
+    - Leche
+    - Tortilla
+    - Mayones
+    correctAnswer: 0
+  - question: 38. Como se llama la bebida alcoholica que me mencionaste primero?
+    answers:
+    - Cania Manabita
+    - Puntas
+    - Pajaro Azul
+    - Cerveza
+    correctAnswer: 0
+  - question: 39. La primera expresion grosera que me dijiste?
+    answers:
+    - Pendeja
+    - Puto
+    - Chuta
+    - Tonto
+    correctAnswer: 2
+  - question: 40. Palabra comun para referirse a una persona en Mexico
+    answers:
+    - Mae
+    - Man
+    - Wey
+    - Vato
+    correctAnswer: 2
+  - question: 41. Cual fue la ultima peli que viste con tu hermanita antes de regresar
+      a Michigan?
+    answers:
+    - Un gran dinosaurio
+    - Toy story
+    - Ralph el demoledor
+    - Bichos
+    correctAnswer: 0
+  - question: 42. Como se llama tu gatita?
+    answers:
+    - Manchas
+    - Michita
+    - Misifus
+    - Bola de pelos
+    correctAnswer: 1
+  - question: 43. Que dia me invitaste a jugar fut y me confesaste tu amor por el?
+    answers:
+    - 21 de septiembre
+    - 25 de septiembre
+    - 30 de septiembre
+    - 26 de septiembre
+    correctAnswer: 3
+  - question: 44. Que dia salimos por primera vez juntos?
+    answers:
+    - 28 de septiembre
+    - 26 de septiembre
+    - 27 de septiembre
+    - 1 de octubre
+    correctAnswer: 0
+  - question: 45. A donde fuimos a comer la primera vez?
+    answers:
+    - Pizza hut
+    - Crispelli's Bakery and Pizzeria
+    - The cheescake factory
+    - Red Coat Tavern
+    correctAnswer: 1
+  - question: 46. De que color era el coche en el que pase por ti?
+    answers:
+    - Azul
+    - rojo
+    - Gris
+    - Verde
+    correctAnswer: 2
+  - question: 47. Que dia me confesaste tu amor por las micheladas?
+    answers:
+    - 27 de septiembre
+    - 29 de septiembre
+    - 1 de octubre
+    - 3 de octubre
+    correctAnswer: 1
+  - question: 48. La primera vez que te dije "Guapa"?
+    answers:
+    - El mismo que las micheladas jaja
+    - En cedar Point
+    - En diablos
+    - En el cine
+    correctAnswer: 0
+  - question: "49. Que canci\xF3n de RBD te mande cuando \xEDbamos camino a great
+      lakes a comprar mis tennis? "
+    answers:
+    - Un poco de tu amor
+    - Solo quedate en silencio
+    - Salvame
+    - Rebelde
+    correctAnswer: 2
+  - question: 50. De que color eran mis tennis rotos?
+    answers:
+    - Verde
+    - Rojo
+    - Azul
+    - Negro
+    correctAnswer: 2
+  - question: 51. De que color eran los tennis que me compre?
+    answers:
+    - Azules
+    - Negros
+    - Verdes
+    - Rojos
+    correctAnswer: 1
+  - question: 52. Cual es mi pelicula favorita?
+    answers:
+    - Volver al futuro
+    - Rocky
+    - Interestelar
+    - Batman
+    correctAnswer: 2
+  - question: 53. Cual es mi pelicula de disney-pixar favorita?
+    answers:
+    - Big Hero 6
+    - Toy Story
+    - Ralph el demoledor
+    - Monsters Inc
+    correctAnswer: 2
+  - question: 54.  Cual es mi serie favorita?
+    answers:
+    - Stranger things
+    - Black mirror
+    - Dark
+    - Smallville
+    correctAnswer: 1
+  - question: 55. Caul es mi franquicia de videojuegos favorita?
+    answers:
+    - Resident Evil
+    - Mario kart
+    - Pro evolution Soccer
+    - The legend of zelda
+    correctAnswer: 0
+  - question: 56. Cual es mi videojuego favorit?
+    answers:
+    - Mario kart
+    - 'TLOZ: Breath of the wild'
+    - bloodborne
+    - Digimon World
+    correctAnswer: 2
+  - question: 57. Que consoloda de videojuegos tengo?
+    answers:
+    - Play station
+    - Nintendo Switch
+    - XBox
+    - Nintendo 3ds
+    correctAnswer: 1
+  - question: 58. Cuando te hice la primer llamada telefonica?
+    answers:
+    - 18 de septiembre
+    - 25 de septiembre
+    - 30 de septiembre
+    - 1 de octubre.
+    correctAnswer: 2
+  - question: 59. Que dia fuimos cedar point?
+    answers:
+    - 1 de octubre
+    - 3 de octubre
+    - 30 de septiembre
+    - 28 de septiembre
+    correctAnswer: 1
+  - question: 60. Como se llamaba a amiga de Alan que nos acompanio el cedar point?
+    answers:
+    - Ana
+    - Maria
+    - Lucy
+    - Liss
+    correctAnswer: 1
+  - question: 61. De quien fue el cumpleanios el dia que fuimos al cedar point?
+    answers:
+    - Mafer
+    - Lucy
+    - Alan
+    - Mi hermano pequenio
+    correctAnswer: 3
+  - question: 62. Quien de mis abuelos ya fallecio?
+    answers:
+    - Abuelo papa
+    - abuela Papa
+    - Abuelo Mama
+    - Abuela Mama
+    correctAnswer: 0
+  - question: '63. Que dia vimos nuestra primera peli juntos? '
+    answers:
+    - 1 de octubre
+    - 2 de octubre
+    - 3 de octubre
+    - 4 de octubre
+    correctAnswer: 2
+  - question: 64. Que te dije despues de ver IT?
+    answers:
+    - que era gay
+    - que me gustaban las pelis de terror
+    - que me gusta el fut
+    - que me gustabas
+    correctAnswer: 3
+  - question: 65. Que serie me dijiste que te da mucho miedo?
+    answers:
+    - American horror
+    - Dark
+    - Stanger Things
+    - Scream
+    correctAnswer: 1
+  - question: 66. A donde ibamos a cenar seguido en Novi?
+    answers:
+    - Sport Grille
+    - Sushi House
+    - Nagomi
+    - Cheescake factory
+    correctAnswer: 1
+  - question: 67. Como se llama mi sobrina?
+    answers:
+    - Avril
+    - Paty
+    - Nancy
+    - Nadia
+    correctAnswer: 0
+  - question: 68. Ahora solo nos queda...
+    answers:
+    - La vida
+    - Barcelona
+    - Un beso
+    - Nada
+    correctAnswer: 1
+  - question: 69. Como se les dice a los clubes para hombres en Mexico? (Parecido
+      a las palomitas)
+    answers:
+    - Antro
+    - Club
+    - Congal
+    - Table
+    correctAnswer: 2
+  - question: 70. Cual fue el primer libro que te recomende?
+    answers:
+    - Twilight
+    - Sherlock Holmes
+    - Los Jardines Secretos de Mogador
+    - Las batallas de el desierto
+    correctAnswer: 2
+  - question: 71. Que animal me encontre en el bosque cuando iba corriendo en Novi?
+    answers:
+    - Un ciervo
+    - Un cuervo
+    - Un gato
+    - Una tortuga
+    correctAnswer: 3
+  - question: 72. Como se les dice a los zapatos de futbol en mexico
+    answers:
+    - Tachones
+    - Tacos
+    - Zapatillas
+    - Tennis
+    correctAnswer: 1
+  - question: 73. Que posicion juego en el futbol?
+    answers:
+    - Portero
+    - Defensa
+    - Medio
+    - Delantero
+    correctAnswer: 3
+  - question: 74. Cual es mi posicion favoirta en la cama?
+    answers:
+    - Perrito
+    - Misionero
+    - Vaquerita
+    - Cucharita
+    correctAnswer: 0
+  - question: 75. Que posicion de futbol jugaba de ninio?
+    answers:
+    - Delantero
+    - Medio
+    - Portero
+    - Defensa
+    correctAnswer: 2
+  - question: 76. Que dia nos dimos nuestro primer beso?
+    answers:
+    - 1 de octubre
+    - 3 de octubre
+    - 6 de octubre
+    - 7 de octubre
+    correctAnswer: 3
+  - question: 77. En donde estaba antes de llegar a Diablos el dia en que nos dimos
+      nuestro primer beso?
+    answers:
+    - En el hotel
+    - En Ann Arbor
+    - En Detroit
+    - En Lansing
+    correctAnswer: 1
+  - question: 78. Cual fue el primer emoji que me enviaste despues de darnos el primer
+      beso?
+    answers:
+    - Un monito
+    - Una sonrisa
+    - Un beso
+    - Un gatito
+    correctAnswer: 2
+  - question: 79. Que tipo de condones ocupamos cuando estuvimos en Chicago la primera
+      vez?
+    answers:
+    - Retardados
+    - ICEHOT
+    - Delgados
+    - Sabores
+    correctAnswer: 1
+  - question: 80. Como quedo el partido que fuimos a ver de los bulls?
+    answers:
+    - 105-107; Pistons
+    - 106-108; Bulls
+    - 105-107; Bulls
+    - 106-107; Pistons
+    correctAnswer: 2
+  - question: 81. Que instrumento musical toco?
+    answers:
+    - Piano
+    - Bateria
+    - Trompeta
+    - Guitarra
+    correctAnswer: 3
+  - question: 82. Con que pais conunfi el tuyo?
+    answers:
+    - Bolivia
+    - Venezuela
+    - Colombia
+    - Peru
+    correctAnswer: 0
+  - question: 83. Cual fue la primera cancion que te dedique?
+    answers:
+    - Ay amor. Ana gabriel
+    - Ojos color de sol. Calle 13
+    - En un solo dia. Morat
+    - Simplemente amigos. Ana Gabriel.
+    correctAnswer: 1
+  - question: 84. El dia que fuiste a verme al hotel... Que sentiste?
+    answers:
+    - Mucho amor
+    - Besos ricos
+    - Mi amiguito
+    - Frio
+    correctAnswer: 2
+  - question: 85. A donde fuimos a cenar antes de que te fueras a chicago
+    answers:
+    - Cheescake Factory
+    - Red Robbin
+    - Nagomi
+    - Red Coat Tavern
+    correctAnswer: 3
+  - question: 86. Que cerveza nos tomamos el dia que fuimos a ver el partido de los
+      bulls?
+    answers:
+    - Modelo
+    - Corona
+    - Blue Moon
+    - Bud light
+    correctAnswer: 1
+  - question: 87. Quien iba manejando el coche cuando chocamos en Novi?
+    answers:
+    - Alan
+    - Luis
+    - Alex
+    - Yo
+    correctAnswer: 0
+  - question: 88. Cuando te fuimos a ver a chicago la primera vez... Canciones de
+      quien iba cantando?
+    answers:
+    - Ana gabriel
+    - Arjona
+    - Luis Miguel
+    - Rebelde
+    correctAnswer: 2
+  - question: 89. A donde vamos a ir de vacaciones?
+    answers:
+    - Miami
+    - Seattle
+    - Ecuador
+    - Mexico
+    correctAnswer: 0
+  - question: 90. Contra quien jugo Barcelona la semifinal de libertadores?
+    answers:
+    - Nacional
+    - Lanus
+    - Colo Colo
+    - Gremio
+    correctAnswer: 3
+  - question: '91. Cuando fue la primera vez que me dijiste que me querias? '
+    answers:
+    - 25 de octubre
+    - 28 de octubre
+    - 26 de octubre
+    - 29 de octubre
+    correctAnswer: 2
+  - question: 92. Que dia fue nuestra primera vez?
+    answers:
+    - Viernes
+    - Lunes
+    - Domingo
+    - Sabado
+    correctAnswer: 3
+  - question: 93. Como se llama la cerveza que nos tomamos en Grand Rapids?
+    answers:
+    - Boomfire
+    - Corona
+    - Bud light
+    - Grand rapids Beer
+    correctAnswer: 0
+  - question: 94. En que fecha nos hicimos novios?
+    answers:
+    - 26 de octubre
+    - 27 de octubre
+    - 1 de noviembre
+    - 28 de noviembre
+    correctAnswer: 3
+  - question: '95. Cuando fue nuestra segunda vez juntos? '
+    answers:
+    - 7 de noviembre
+    - 10 de noviembre
+    - 11 de noviembre
+    - 15 de noviembre
+    correctAnswer: 1
+  - question: 96. Fisicamente... que es lo que mas me gusta de ti?
+    answers:
+    - Piernas
+    - Pompis
+    - Abdomen
+    - Rostro
+    correctAnswer: 1
+  - question: 97. En cuanto a personalidad... que es lo que mas me gusta de ti?
+    answers:
+    - Valor
+    - Sentido del humor
+    - Inteligencia
+    - Sencilles
+    correctAnswer: 3
+  - question: 98. Que dia nos volvimos a ver despues de 2 meses?
+    answers:
+    - 10 de enero
+    - 11 de enero
+    - 12 de enero
+    - 13 de enero
+    correctAnswer: 2
+  - question: 99. Cuantos hijos vamos a tener?
+    answers:
+    - 2
+    - 3
+    - 4
+    - 5
+    correctAnswer: 1
+  - question: 100. En que anio nos vamos a casar?
+    answers:
+    - 2020
+    - 2022
+    - 2024
+    - 2026
+    correctAnswer: 2
 --- !u!114 &257345847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1729,7 +1738,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 489154858}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10, y: -503.5, z: 0}
+  m_LocalPosition: {x: -10, y: -512, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 747162665}
@@ -1887,7 +1896,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 747162664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 299.71777, z: 0}
+  m_LocalPosition: {x: 0, y: 301.55237, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 489154859}
@@ -2007,7 +2016,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 747162665}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.39266914
+  m_Size: 0.3992981
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
