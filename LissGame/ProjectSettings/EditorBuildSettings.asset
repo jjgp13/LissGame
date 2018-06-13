@@ -11,39 +11,66 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/1.unity
     guid: 08fb0f314ecfa9144b87ca92d0d02d2f
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/2.unity
-    guid: 0b67794ce115b4341a776df8a527ab43
+    guid: 4d878c388ec33f64e98c6ba745bc332c
   - enabled: 1
     path: Assets/Scenes/3.unity
-    guid: 95d155cb02da2f740b8af3ea6140ee95
+    guid: fcd789e954631b245b6bdc09ab4c1faf
   - enabled: 1
     path: Assets/Scenes/4.unity
-    guid: a50c26606de9dcd43a594dde938de90e
+    guid: fcd10b8150ac1a24e9f8d9a52563925f
   - enabled: 1
     path: Assets/Scenes/5.unity
-    guid: c47e5d06f38ae204f8b0c2a5588a5db4
+    guid: 720c4491c3b8e8c449608cbe96fe23e5
   - enabled: 1
     path: Assets/Scenes/6.unity
-    guid: c03f4f739a688b2428ba896083168ac9
+    guid: 81be6a12de6ae7b4e8127ed5b90cb250
   - enabled: 1
     path: Assets/Scenes/7.unity
-    guid: d0db9ed4f302a074d9620a6a2844346e
+    guid: 83b0eadc9cabd614ab81ea98a7e74f7f
   - enabled: 1
     path: Assets/Scenes/8.unity
-    guid: 68a0226616b618c498f725ae1847b149
+    guid: 9163ef6dc19dbca4e8c1d416ca69a0da
   - enabled: 1
     path: Assets/Scenes/9.unity
-    guid: c0c8d344064d9b449942f057ff5d168c
+    guid: a84babdd2da3ef24fba7b5c2f37735a7
   - enabled: 1
     path: Assets/Scenes/10.unity
-    guid: 221039c44b07f404a9ea60122e3e3584
+    guid: 008b90adc022beb43a9ac631c0c623f7
   - enabled: 1
     path: Assets/Scenes/11.unity
-    guid: fbeecdc30124e02438d8fa4b79e19e11
+    guid: dbab93c5e50c50649ba8cbeabcda19e6
   - enabled: 1
     path: Assets/Scenes/12.unity
-    guid: 0ab966eaeb8aa9b439fc06ad6c528be9
+    guid: b84459dc38931134093d857afc433c55
   - enabled: 1
     path: Assets/Scenes/ExplanationScene.unity
     guid: 94434cdbd00a10841a973b55e4e0d01d

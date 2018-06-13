@@ -13,6 +13,7 @@ public class MovePlayer : MonoBehaviour {
     public float speed;
     public Rigidbody2D rb;
     public Boundary boundary;
+    public GameObject explosionAnimation;
 
     void FixedUpdate()
     {
@@ -23,5 +24,14 @@ public class MovePlayer : MonoBehaviour {
         rb.velocity = movement * speed;
 
         rb.position = new Vector2( Mathf.Clamp(rb.position.x, boundary.xMin, boundary.xMax), Mathf.Clamp(rb.position.y, boundary.yMin, boundary.yMax) );
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "EnemyBullet" || collision.gameObject.tag == "Enemy")
+        {
+            Instantiate(explosionAnimation, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
     }
 }

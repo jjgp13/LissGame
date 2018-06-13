@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114919964116506360}
   m_Layer: 0
   m_Name: EnemyBullet
-  m_TagString: Untagged
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000280217250358}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.23651615, y: -0.5634162, z: 0}
+  m_LocalPosition: {x: 0.7589193, y: -1.0385401, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -108,7 +108,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  player: {fileID: 1376746609126116, guid: 708c141f07d54a94ab0d804e48100207, type: 2}
   rb: {fileID: 50286183581064816}
 --- !u!212 &212166874475218672
 SpriteRenderer:

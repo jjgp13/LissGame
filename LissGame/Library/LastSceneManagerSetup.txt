@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/LettersMenu.unity
+- path: Assets/Scenes/BadFeelingsGame.unity
   isLoaded: 1
   isActive: 1

@@ -16,6 +16,7 @@ public class LettersController : MonoBehaviour {
             SceneManager.LoadScene(indexScene);
             return;
         }
+
         if(lettersAvailable[indexScene-1] == true)
             SceneManager.LoadScene(indexScene);
         else
