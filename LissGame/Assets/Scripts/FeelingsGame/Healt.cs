@@ -5,13 +5,13 @@ using UnityEngine;
 public class Healt : MonoBehaviour {
 
     public int healtPoints;
-    public GameObject enemyExplosion;
+    public GameObject explosion;
 
     private void Update()
     {
         if (healtPoints == 0)
         {
-            Instantiate(enemyExplosion, transform.position, Quaternion.identity);
+            Instantiate(explosion, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }
