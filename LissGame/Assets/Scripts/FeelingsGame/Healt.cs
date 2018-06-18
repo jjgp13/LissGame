@@ -6,12 +6,14 @@ public class Healt : MonoBehaviour {
 
     public int healtPoints;
     public GameObject explosion;
+    public int playerPoints;
 
     private void Update()
     {
         if (healtPoints == 0)
         {
             Instantiate(explosion, transform.position, Quaternion.identity);
+            GameController.instance.UpdateScore(playerPoints);
             Destroy(gameObject);
         }
     }

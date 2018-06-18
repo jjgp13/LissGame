@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour {
 
+
+    public enum movePatterns {Points, SideToSide, DirectToPlayer};
+    public movePatterns movements;
     public float speed;
     public Vector2[] points;
     private Vector2 currentPoint;
@@ -19,15 +22,18 @@ public class EnemyMovement : MonoBehaviour {
     // Use this for initialization
     void Start () {
         index = 0;
-        //print(points.Length);
         currentPoint = points[index];
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+        
+	}
+
+    private void MoveWithPoints()
+    {
         Vector2 dir = currentPoint - rb.position;
-        print("rb: " + rb.position + " Current: " + currentPoint + " vel: " + dir);
-        //print("rb pos:" + rb.position + " point:" + currentPoint);
+
         if (Mathf.Abs(dir.x) < 0.1f && Mathf.Abs(dir.y) < 0.1f)
         {
             if (index == points.Length - 1)
@@ -37,7 +43,12 @@ public class EnemyMovement : MonoBehaviour {
 
             currentPoint = points[index];
         }
-        
+
         rb.MovePosition(rb.position + dir * speed * Time.deltaTime);
-	}
+    }
+
+    private void MoveSideToSide()
+    {
+
+    }
 }
