@@ -15,6 +15,11 @@ public class MovePlayer : MonoBehaviour {
     public Boundary boundary;
     public GameObject explosionAnimation;
 
+    private void Start()
+    {
+        GameController.instance.isPlayerActive = true;
+    }
+
     void FixedUpdate()
     {
         float moveHorizontal = Input.acceleration.x;
@@ -32,6 +37,7 @@ public class MovePlayer : MonoBehaviour {
         {
             Instantiate(explosionAnimation, transform.position, Quaternion.identity);
             Destroy(gameObject);
+            GameController.instance.isPlayerActive = false;
         }
     }
 }
